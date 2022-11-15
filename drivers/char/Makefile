@@ -65,6 +65,7 @@ obj-$(CONFIG_TILE_SROM)		+= tile-srom.o
 obj-$(CONFIG_SUNXI_DMA_TEST)	+= dma_test/
 obj-y				+= sunxi-scr/
 obj-y				+= sunxi-di/
+obj-y                           += a64_gpiomem.o
 obj-$(CONFIG_DUMP_REG) += dump_reg/
 obj-$(CONFIG_SUNXI_TRANSFORM)   += sunxi_tr/
 obj-y    += sunxi_sys_info/
