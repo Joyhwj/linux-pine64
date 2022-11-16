@@ -54,7 +54,7 @@
 #include <linux/io.h>
 
 #define DEVICE_NAME "a64-gpiomem"
-#define DRIVER_NAME "gpiomem-64"
+#define DRIVER_NAME "gpiomem-a64"
 #define DEVICE_MINOR 0
 
 struct a64_gpiomem_instance {
