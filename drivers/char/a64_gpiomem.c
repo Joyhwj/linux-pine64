@@ -146,8 +146,8 @@ static int a64_gpiomem_mmap(struct file *file, struct vm_area_struct *vma)
 	size = vma->vm_end - vma->vm_start;
 
 
-	if (!address_is_allowed(vma->vm_pgoff, size))
-		return -EPERM;
+	//if (!address_is_allowed(vma->vm_pgoff, size))
+	//	return -EPERM;
 
 	vma->vm_page_prot = phys_mem_access_prot(file, vma->vm_pgoff,
 						 size,
